@@ -10,6 +10,11 @@
     color: white;
     text-align: center;
     padding-top: 60px;
+    .text-md:first-of-type {
+      animation-name: fadeInDown;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+    }
     .text-md {
       position: relative;
       display: inline-block;
@@ -21,6 +26,17 @@
         font-weight: 400;
       }
     }
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

@@ -50,6 +50,9 @@
       ul {
         width: 100%;
         flex-direction: column;
+        li:first-of-type a {
+          margin-top: 40px;
+        }
         li {
           text-align: center;
           a {
