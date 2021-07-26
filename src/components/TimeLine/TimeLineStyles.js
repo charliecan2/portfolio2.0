@@ -1,4 +1,3 @@
-
 import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
@@ -88,12 +87,14 @@ export const CarouselItemTitle = styled.h4`
   }
 `
 export const CarouselItemImg = styled.svg`
+  margin-top: 15px;
   margin-left: 21px;
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
   width: 100%;
 
   @media ${props => props.theme.breakpoints.sm} {
     -webkit-mask-image: none;
+    margin-top: 10px;
     margin-left: 16px;
     overflow: visible;
   }
@@ -107,12 +108,12 @@ export const CarouselItemText = styled.p`
   padding-right: 16px;
 
   @media ${props => props.theme.breakpoints.md} {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     padding-right: 32px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 16px;
     padding-right: 0;
   }

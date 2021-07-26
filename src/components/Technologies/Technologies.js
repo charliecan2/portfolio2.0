@@ -6,7 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
-    <SectionTitle main>Technologies</SectionTitle>
+    <SectionTitle style={{marginTop: '50px'}}>Technologies</SectionTitle>
     <SectionText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames. In hac habitasse platea dictumst vestibulum rhoncus.</SectionText>
     <List>
       <ListItem>

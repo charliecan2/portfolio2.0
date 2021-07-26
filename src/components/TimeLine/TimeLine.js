@@ -44,7 +44,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About</SectionTitle>
+      <SectionDivider />
+      <SectionTitle style={{marginTop: '50px'}}>About</SectionTitle>
       <SectionText>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec. Auctor eu augue ut lectus arcu bibendum at varius.
       </SectionText>
@@ -112,7 +113,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };
