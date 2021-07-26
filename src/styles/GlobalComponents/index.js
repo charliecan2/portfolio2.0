@@ -281,8 +281,16 @@ export const LinkIconImg = styled.div`
 `
 export const IconContainer = styled.div`
   display: flex;
+  
+  > * {
+    margin-right: 5px;
+  }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     flex-direction: column;
+    > * {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
   }
 `
