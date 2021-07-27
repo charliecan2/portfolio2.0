@@ -3,8 +3,8 @@ import React from 'react'
 import { ButtonBack, ButtonFront } from './index'
 
 const Button = (props) => (
-  <ButtonBack alt={props.alt} form={props.form} disabled={props.disabled}>{props.children}
-    <ButtonFront alt={props.alt} onClick={props.onClick} disabled={props.disabled}>{props.children}</ButtonFront>
+  <ButtonBack href={props.href} download type={props.type}>{props.children}
+    <ButtonFront href={props.href} download type={props.type} onClick={props.onClick}>{props.children}</ButtonFront>
   </ButtonBack>
 );
 

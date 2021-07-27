@@ -166,7 +166,7 @@ export const SecondaryBtn = styled.button`
   }
 `
 
-export const ButtonBack = styled.button`
+export const ButtonBack = styled.a`
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
   border-radius: 50px;
@@ -199,7 +199,7 @@ export const ButtonBack = styled.button`
   }
 `
 
-export const ButtonFront = styled.button`
+export const ButtonFront = styled.a`
   border: none;
   border-radius: 50px;
   color: #fff;
