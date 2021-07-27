@@ -36,7 +36,7 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.md} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 2 / 2 / 5;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
@@ -63,6 +63,9 @@ export const NavLink = styled.a`
     color: #fff;
     opacity: 1;
     cursor: pointer;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: .5rem;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;

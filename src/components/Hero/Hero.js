@@ -18,11 +18,7 @@ const Hero = () => (
         <SectionText>
           Web applications should not only be aesthetically pleasing, but intuitive to use. Here, you'll find several projects I've created throughout my development journey based on this principle; from simple front-end apps to larger full-stack applications.
         </SectionText>
-        <Button>
-          <a href={`/documents/carlos-cantu-resume.pdf`} download type="button" style={{color: '#fff'}}>
-            Download Resume
-          </a>
-        </Button>
+        <Button href={`/documents/carlos-cantu-resume.pdf`} type={"button"}>Download Resume</Button>
       </LeftSection>
     </Section>
   </>
