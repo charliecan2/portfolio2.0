@@ -16,7 +16,7 @@ const Hero = () => (
           Full Stack Web Developer
         </SectionTitle>
         <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Web applications should not only be aesthetically pleasing, but intuitive to use. Here, you'll find several projects I've created throughout my development journey based on this principle; from simple front-end apps to larger full-stack applications.
         </SectionText>
         <Button>
           <a href={`/documents/carlos-cantu-resume.pdf`} download type="button" style={{color: '#fff'}}>

@@ -7,7 +7,9 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
     <SectionTitle style={{marginTop: '50px'}}>Technologies</SectionTitle>
-    <SectionText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames. In hac habitasse platea dictumst vestibulum rhoncus.</SectionText>
+    <SectionText>
+      I've worked with a wide range of full-stack technologies in my projects, with a concentration in some of the most popular front-end technologies.
+    </SectionText>
     <List>
       <ListItem>
         <IconContainer>

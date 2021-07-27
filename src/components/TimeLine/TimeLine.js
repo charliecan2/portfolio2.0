@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle style={{marginTop: '50px'}}>About</SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec. Auctor eu augue ut lectus arcu bibendum at varius.
+        I am a full-stack developer with a specialty in front-end development using React. Always looking for new challenges and technologies to learn to further my development skills. Got an idea or project you'd like to collaborate on? Feel free to contact me with the email or phone number provided below!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
